@@ -13,16 +13,3 @@ O sistema implementa de forma integrada os cinco padrões criacionais:
 3. **Builder:** Facilita a construção passo a passo de um `Evento` complexo (com múltiplos atributos como data, local e open bar) utilizando uma interface fluente.
 4. **Abstract Factory:** Garante que os itens entregues na porta do evento (Kits) sejam sempre compatíveis com a família do evento (ex: Festival de Música vs. Teatro).
 5. **Prototype:** Permite a clonagem rápida de instâncias de ingressos em memória, otimizando o processamento em simulações de "compras em lote".
-
-## 📂 Estrutura do Projeto
-
-O repositório está organizado da seguinte forma:
-
-```text
-/
-├── src/                # Código-fonte (Implementação dos padrões e código cliente)
-├── docs/               # Documentação exigida para avaliação
-│   ├── TEMA.md         # Explicação do domínio do sistema
-│   └── PADROES.md      # Justificativa técnica para o uso de cada padrão
-├── package.json        # Dependências do projeto
-└── README.md           # Este arquivo
